@@ -1,0 +1,276 @@
+{
+    "KeyPairs": [
+        {
+            "KeyPairId": "key-0a7879d962d8abf8c",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T05:20:15.036000+00:00",
+            "KeyName": "HONasses",
+            "KeyFingerprint": "76:74:50:51:79:e1:65:95:6c:c6:62:f4:3d:4f:84:fa:e8:b7:a7:eb"
+        },
+        {
+            "KeyPairId": "key-0909e29eef4489bb7",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T05:13:39.648000+00:00",
+            "KeyName": "sujitha-keypair",
+            "KeyFingerprint": "d5:f1:c2:48:da:c5:48:87:e3:78:fc:d0:c0:45:8b:02:f6:e4:fc:42"
+        },
+        {
+            "KeyPairId": "key-0303214efd4ed6318",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-29T05:28:59.267000+00:00",
+            "KeyName": "rahul-devops",
+            "KeyFingerprint": "5e:43:01:76:cd:09:3b:ea:bb:16:65:e7:17:02:37:ee:a8:26:73:cd"
+        },
+        {
+            "KeyPairId": "key-0389d1160e675284b",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-26T05:44:56.615000+00:00",
+            "KeyName": "Amulya demo1",
+            "KeyFingerprint": "c1:4c:26:3c:e7:1f:78:84:9d:86:9a:bb:30:10:2a:f5:63:6c:34:e0"
+        },
+        {
+            "KeyPairId": "key-0d640b18475de8c85",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T05:12:50.189000+00:00",
+            "KeyName": "m.s.gnana.deep_ec2_ppk_file",
+            "KeyFingerprint": "06:6b:75:ef:2c:83:21:52:23:61:64:ab:ae:f1:8f:08:d5:d7:6a:02"
+        },
+        {
+            "KeyPairId": "key-02c29bbe6ad25595c",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T09:33:57.550000+00:00",
+            "KeyName": "mahak-devi-ec2-keypair",
+            "KeyFingerprint": "59:8a:08:6a:3b:92:16:91:8b:ef:1d:08:c1:d8:be:14:61:c2:33:9f"
+        },
+        {
+            "KeyPairId": "key-0a8b731783346c458",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-07T08:54:58.040000+00:00",
+            "KeyName": "pranay.i.gupta_ec2_ppk_file",
+            "KeyFingerprint": "01:83:2d:32:cf:28:c8:af:03:1c:a7:08:68:f1:42:d8:08:dd:a5:87"
+        },
+        {
+            "KeyPairId": "key-0ca5f6662ab06ee0e",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-01-02T06:06:27.483000+00:00",
+            "KeyName": "MyFirstEC2-KeyPair",
+            "KeyFingerprint": "b2:6b:d1:9a:0c:6b:26:7e:c2:9f:f4:ba:d5:6b:0c:21:ec:fa:4c:23"
+        },
+        {
+            "KeyPairId": "key-0300e832b265c9ded",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T04:45:42.276000+00:00",
+            "KeyName": "hon",
+            "KeyFingerprint": "e4:1c:7d:80:f0:c2:63:0d:f3:3a:13:d5:08:d3:de:19:07:b2:87:0f"
+        },
+        {
+            "KeyPairId": "key-013475e5e962da495",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-11T11:08:45.412000+00:00",
+            "KeyName": "k.sivapair",
+            "KeyFingerprint": "48:dd:e8:1c:28:56:18:30:f7:e0:ea:56:02:44:20:48:9d:f4:b1:ae"
+        },
+        {
+            "KeyPairId": "key-0083d4bf799873abb",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-11-21T07:44:00.292000+00:00",
+            "KeyName": "dc-lab-key",
+            "KeyFingerprint": "d7:15:f1:fd:6f:69:aa:13:df:4a:7d:a7:40:c7:ad:f7"
+        },
+        {
+            "KeyPairId": "key-0acb6c9ee4c37cfc1",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2023-04-21T07:41:38.344000+00:00",
+            "KeyName": "Test1",
+            "KeyFingerprint": "a1:0d:f9:6d:ae:c4:8a:b7:37:6c:36:c8:5c:8a:8d:1b:63:5c:13:a4"
+        },
+        {
+            "KeyPairId": "key-00cb4178d4b7dfd47",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-11-20T07:41:23.928000+00:00",
+            "KeyName": "project15-key",
+            "KeyFingerprint": "e4:e7:05:ab:e3:e0:04:5e:23:be:4b:d7:fe:5c:11:b9:4c:01:c0:15"
+        },
+        {
+            "KeyPairId": "key-0b193c800d30736a8",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-04-13T10:49:45.006000+00:00",
+            "KeyName": "AWS_practice_ppk",
+            "KeyFingerprint": "8a:9e:ae:d7:7f:e1:d5:8a:74:2f:22:05:d4:d3:23:13:53:c2:e6:69"
+        },
+        {
+            "KeyPairId": "key-0c9ca973e9094bc86",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T09:45:34.320000+00:00",
+            "KeyName": "ankit_ppk",
+            "KeyFingerprint": "27:60:0a:ff:7e:5d:23:aa:6f:04:9e:60:08:39:bb:ea:42:7a:16:d2"
+        },
+        {
+            "KeyPairId": "key-0ec4ca16c6944bfca",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T04:49:02.439000+00:00",
+            "KeyName": "ubuntu-vignesh",
+            "KeyFingerprint": "56:4b:d8:53:ad:a2:c6:a4:11:38:ee:56:f4:e0:c2:d3:68:f9:3f:4b"
+        },
+        {
+            "KeyPairId": "key-0896c1eaa3d198c4a",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2021-10-20T13:28:27+00:00",
+            "KeyName": "test",
+            "KeyFingerprint": "18:6e:7c:77:2f:fb:84:46:6a:c9:33:e3:ea:94:08:b6:c6:c8:fc:1e"
+        },
+        {
+            "KeyPairId": "key-0372116238eabd86f",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-11-20T06:18:10.116000+00:00",
+            "KeyName": "project5-key",
+            "KeyFingerprint": "d8:b1:70:29:f0:bb:ec:4c:2a:46:cb:cf:f8:c5:bc:b4:ef:70:42:c1"
+        },
+        {
+            "KeyPairId": "key-0a476ecf859323712",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T04:53:52.614000+00:00",
+            "KeyName": "session",
+            "KeyFingerprint": "01:93:6f:80:fe:5d:2e:d3:03:a5:74:c1:eb:18:e5:2b:0d:48:b1:4d"
+        },
+        {
+            "KeyPairId": "key-0475a1ba82c434743",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-09-21T10:22:48.017000+00:00",
+            "KeyName": "jeet",
+            "KeyFingerprint": "2a:cf:4e:a5:25:71:7a:97:d1:30:b6:6e:4f:05:70:15:97:3a:fd:31"
+        },
+        {
+            "KeyPairId": "key-0d6232b7ecbf65f0c",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T11:42:54.144000+00:00",
+            "KeyName": "pathiputtoor.h.reddy_ec2_ppk_file",
+            "KeyFingerprint": "29:d9:b9:4b:e9:b3:da:da:4a:95:4d:36:4b:20:a1:58:d2:bc:40:a0"
+        },
+        {
+            "KeyPairId": "key-08333c1969cfd308f",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2021-10-20T10:56:39+00:00",
+            "KeyName": "KP_Mathan_Raju",
+            "KeyFingerprint": "11:1c:6c:a1:b8:72:1c:18:77:ce:ee:24:82:5c:5a:63:21:57:f4:21"
+        },
+        {
+            "KeyPairId": "key-0930d041a2827e30b",
+            "KeyType": "ed25519",
+            "Tags": [],
+            "CreateTime": "2026-11-20T14:02:40.606000+00:00",
+            "KeyName": "project3-ec2-key",
+            "KeyFingerprint": "0Ke6OdVTRGcqbOxo1z56BzIS7RUtPNxjvZDnaFKNx88="
+        },
+        {
+            "KeyPairId": "key-0e61cc5f8496b59cd",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T05:32:25.417000+00:00",
+            "KeyName": "UwebTestkey",
+            "KeyFingerprint": "10:cb:2e:6f:98:2c:fc:f9:89:c8:fd:e4:cd:e3:8e:f2:31:2d:e0:a8"
+        },
+        {
+            "KeyPairId": "key-0b2d7c351cefc01e7",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-06T11:50:05.662000+00:00",
+            "KeyName": "amulya-ec2",
+            "KeyFingerprint": "7f:c7:fa:f7:d3:10:b7:90:8b:5d:76:ac:66:c1:c9:03:6f:ca:12:09"
+        },
+        {
+            "KeyPairId": "key-03a736e09514aab5e",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2025-09-02T09:57:14.578000+00:00",
+            "KeyName": "TEST-AWSSYSOPS",
+            "KeyFingerprint": "43:75:a2:aa:ce:71:3f:11:36:ea:2e:cd:5e:1a:f4:bd:be:d0:ce:1e"
+        },
+        {
+            "KeyPairId": "key-08d25f554fb6aa7cd",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-06T05:59:40.586000+00:00",
+            "KeyName": "prajol.david_ec2_ppk_file",
+            "KeyFingerprint": "19:8f:3e:27:3b:30:d1:76:bf:4f:4e:32:55:39:e8:b7:6f:e5:94:e7"
+        },
+        {
+            "KeyPairId": "key-0f9f25bdeb4292db2",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2022-10-31T10:47:54+00:00",
+            "KeyName": "raju_mathan_test",
+            "KeyFingerprint": "32:1c:00:ae:5d:fe:52:6b:a4:4c:5c:60:ea:1a:ff:9f:68:25:cc:9a"
+        },
+        {
+            "KeyPairId": "key-02a1270e69dd79158",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T05:53:48.934000+00:00",
+            "KeyName": "unknown12",
+            "KeyFingerprint": "ec:79:b6:f4:20:24:e4:3a:82:96:e9:dc:91:cd:8a:a2:df:cb:30:07"
+        },
+        {
+            "KeyPairId": "key-08f0024d53b7582a2",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T05:10:09.733000+00:00",
+            "KeyName": "suji-keypair",
+            "KeyFingerprint": "9e:5b:59:9e:65:6a:bf:23:14:e1:f0:03:95:46:63:71:83:21:95:aa"
+        },
+        {
+            "KeyPairId": "key-0528fbee4c25d110b",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T09:33:53.736000+00:00",
+            "KeyName": "siva-kumar-ec2-keypair",
+            "KeyFingerprint": "b8:6d:6a:9a:03:12:12:84:44:85:f7:e9:a0:7a:4b:4d:ee:40:da:f5"
+        },
+        {
+            "KeyPairId": "key-0a1722ce917ffbd39",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-03-11T04:07:08.616000+00:00",
+            "KeyName": "myubuntukey",
+            "KeyFingerprint": "54:53:57:9a:79:e5:f9:36:ea:b7:91:28:4f:67:10:3e:1a:3a:f3:d0"
+        },
+        {
+            "KeyPairId": "key-0c69699b176106156",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2026-10-05T09:33:54.907000+00:00",
+            "KeyName": "utkarsh-dhasmana-ec2-keypair",
+            "KeyFingerprint": "4b:41:d6:88:06:e4:5f:b2:56:ee:87:89:ff:bc:3f:bc:c9:44:6a:43"
+        },
+        {
+            "KeyPairId": "key-0546846e7f4f8d274",
+            "KeyType": "rsa",
+            "Tags": [],
+            "CreateTime": "2025-09-02T19:42:35.819000+00:00",
+            "KeyName": "my-key-pair",
+            "KeyFingerprint": "05:7a:08:28:57:b1:90:bb:d3:b4:10:1c:f3:43:f3:1a:99:a7:dc:3b"
+        }
+    ]
+}
