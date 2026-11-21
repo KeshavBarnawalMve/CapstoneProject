@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: keshav-project14-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: keshav-project14
+
+  template:
+    metadata:
+      labels:
+        app: keshav-project14
+
+    spec:
+      containers:
+      - name: keshav-project14-container
+        image: 590507089733.dkr.ecr.us-east-1.amazonaws.com/keshav-project14-repo:latest
+
+        ports:
+        - containerPort: 80
