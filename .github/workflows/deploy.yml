@@ -1,0 +1,42 @@
+name: Project18 GitOps Deployment
+
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+    paths:
+      - 'Project_18/**'
+
+jobs:
+  deploy:
+    if: github.event.pull_request.merged == true
+
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: Project_18/terraform
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Terraform Format
+        run: terraform fmt -check -recursive
+
+      - name: Terraform Init
+        run: terraform init
+
+      - name: Terraform Validate
+        run: terraform validate
+
+      - name: Terraform Plan
+        run: terraform plan
+
+      - name: Terraform Apply
+        run: terraform apply -auto-approve
