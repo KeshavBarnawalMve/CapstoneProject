@@ -1,0 +1,14 @@
+{
+  "Rules": [
+    {
+      "ID": "Project22LogExpirationRule",
+      "Status": "Enabled",
+      "Filter": {
+        "Prefix": ""
+      },
+      "Expiration": {
+        "Days": 30
+      }
+    }
+  ]
+}
