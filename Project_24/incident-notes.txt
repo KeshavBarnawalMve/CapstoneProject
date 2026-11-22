@@ -1,0 +1,20 @@
+Project 24 - Manual Chaos Test
+
+Incident:
+Apache service was intentionally stopped.
+
+Failure Time:
+Sun Nov 22 20:12:52 UTC 2026
+
+Action Taken:
+sudo systemctl start apache2
+
+Verification:
+Service status checked with:
+sudo systemctl status apache2
+
+Application verified using:
+curl localhost
+
+Result:
+Service recovered successfully.

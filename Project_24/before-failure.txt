@@ -1,0 +1,48 @@
+========== BEFORE FAILURE ==========
+Timestamp
+Sun Nov 22 20:05:08 UTC 2026
+
+Instance ID
+i-078f69d236516a846
+
+Public IP
+15.207.103.10
+
+Service Status
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-11-22 18:06:14 UTC; 1h 58min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 1015 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 1179 (apache2)
+      Tasks: 55 (limit: 17436)
+     Memory: 7.8M (peak: 8.3M)
+        CPU: 440ms
+     CGroup: /system.slice/apache2.service
+             ├─1179 /usr/sbin/apache2 -k start
+             ├─1180 /usr/sbin/apache2 -k start
+             └─1183 /usr/sbin/apache2 -k start
+
+Nov 22 18:06:11 AZLTT0222435e27 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+Nov 22 18:06:14 AZLTT0222435e27 systemd[1]: Started apache2.service - The Apache HTTP Server.
+
+HTTP Check
+{
+    "TargetHealthDescriptions": [
+        {
+            "Target": {
+                "Id": "i-0a7474e0a50868f99",
+                "Port": 80
+            },
+            "HealthCheckPort": "80",
+            "TargetHealth": {
+                "State": "healthy"
+            },
+            "AdministrativeOverride": {
+                "State": "no_override",
+                "Reason": "AdministrativeOverride.NoOverride",
+                "Description": "No override is currently active on target"
+            }
+        }
+    ]
+}

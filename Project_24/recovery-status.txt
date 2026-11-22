@@ -1,0 +1,23 @@
+========== RECOVERY STATUS ==========
+Timestamp
+Sun Nov 22 20:07:41 UTC 2026
+
+Service Status
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/usr/lib/systemd/system/apache2.service; enabled; preset: enabled)
+     Active: active (running) since Sun 2026-11-22 20:07:04 UTC; 36s ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 7142 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 7145 (apache2)
+      Tasks: 55 (limit: 17436)
+     Memory: 5.4M (peak: 5.9M)
+        CPU: 28ms
+     CGroup: /system.slice/apache2.service
+             ├─7145 /usr/sbin/apache2 -k start
+             ├─7147 /usr/sbin/apache2 -k start
+             └─7148 /usr/sbin/apache2 -k start
+
+Nov 22 20:07:04 AZLTT0222435e27 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+Nov 22 20:07:04 AZLTT0222435e27 systemd[1]: Started apache2.service - The Apache HTTP Server.
+
+HTTP Response
