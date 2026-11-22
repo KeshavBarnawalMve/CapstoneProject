@@ -1,0 +1,72 @@
+{
+  "widgets": [
+    {
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 24,
+      "height": 2,
+      "properties": {
+        "markdown": "# AWS Infrastructure & Application Performance Dashboard (ap-south-1)\nReal-time monitoring for EC2 Compute, Application Load Balancer (ALB), and CloudWatch Log Ingestion."
+      }
+    },
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 2,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "EC2 CPU Utilization & Network I/O",
+        "region": "ap-south-1",
+        "stat": "Average",
+        "period": 60,
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [
+          [ "AWS/EC2", "CPUUtilization", { "label": "EC2 Avg CPU (%)" } ],
+          [ "AWS/EC2", "NetworkIn", { "label": "Network In (Bytes)", "yAxis": "right" } ],
+          [ "AWS/EC2", "NetworkOut", { "label": "Network Out (Bytes)", "yAxis": "right" } ]
+        ]
+      }
+    },
+    {
+      "type": "metric",
+      "x": 12,
+      "y": 2,
+      "width": 12,
+      "height": 6,
+      "properties": {
+        "title": "ALB Request Count & Target Response Time",
+        "region": "ap-south-1",
+        "stat": "Sum",
+        "period": 60,
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [
+          [ "AWS/ApplicationELB", "RequestCount", { "label": "Total Requests" } ],
+          [ "AWS/ApplicationELB", "TargetResponseTime", { "stat": "Average", "label": "Avg Latency (s)", "yAxis": "right" } ]
+        ]
+      }
+    },
+    {
+      "type": "metric",
+      "x": 0,
+      "y": 8,
+      "width": 24,
+      "height": 6,
+      "properties": {
+        "title": "CloudWatch Logs Ingestion (Bytes & Events)",
+        "region": "ap-south-1",
+        "stat": "Sum",
+        "period": 60,
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [
+          [ "AWS/Logs", "IncomingBytes", { "label": "Incoming Log Bytes" } ],
+          [ "AWS/Logs", "IncomingLogEvents", { "label": "Incoming Log Events", "yAxis": "right" } ]
+        ]
+      }
+    }
+  ]
+}
